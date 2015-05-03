@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////
+/////////////////ALGORITMO GENÉTICO/////////////////
+////////////////////////////////////////////////////
+
+//MINIMIZAÇÃO DO CUSTO, DISTÂNCIA E TEMPO TOTAIS NUMA VIAGEM PLANEADA POR N CIDADES EUROPEIAS (0-14), ONDE A PRIMEIRA E ÚLTIMA CIDADES ESTÃO FIXAS UTILIZANDO O ALGORITMO GENÉTICO
+
+As cidades do percurso estão etiquetadas da seguinte forma:
+0-Amsterdam, 1-Athens, 2-Berlin, 3-Bern, 4-Brussels, 5-Copenhagen, 6-Edinburgh, 7-Lisbon, 8-London, 9-Luxembourg, 10-Madrid, 11-Paris, 12-Prague, 13-Rome, 14-Vienna
+
+Percurso cujo o custo é mínimo:
+7	10	11	3	13	2	12	14	1	5	9	4	8	6	0	
+População inicial usada no algoritmo:	4000
+Número de gerações usada no algoritmo:	2000
+Custo total do percurso acima:	1135.2599992752 euros
+
+Percurso cujo a distância é mínima:
+7	10	11	3	13	1	14	12	2	5	8	6	4	9	0	
+População inicial usada no algoritmo:	4000
+Número de gerações usada no algoritmo:	2000
+Distância total do percurso acima:	12657.0000000000 Km
+
+Percurso cujo o tempo é mínimo:
+7	10	11	3	13	1	14	12	2	5	6	8	4	9	0	
+População inicial usada no algoritmo:	4000
+Número de gerações usada no algoritmo:	2000
+Tempo total do percurso acima:	115.0000000000 horas
